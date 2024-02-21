@@ -1,0 +1,67 @@
+{
+    "name": "Camera Controls",
+    "maps": [
+        {
+            "name": "Camera Controls",
+            "id": "630c5a05-2ea4-4d9c-8dfe-6d546815f521",
+            "actions": [
+                {
+                    "name": "Camera keys",
+                    "type": "PassThrough",
+                    "id": "2aec79d1-c20b-4074-a516-dddbb6fe8ed8",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "One Modifier",
+                    "id": "aac6b4ba-e541-4c1e-8fe2-c60274a2e16e",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "ScaleVector2(y=0)",
+                    "groups": "",
+                    "action": "Camera keys",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Modifier",
+                    "id": "7b639f90-9ff2-49f6-b9fa-63c63fe76a9f",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Camera keys",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "beee46e1-ba4f-4705-9cf7-2733898b20dd",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Camera keys",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "a78b9b84-a498-413e-9754-4a1050d73800",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "ScaleVector2(x=0),InvertVector2(invertX=false)",
+                    "groups": "",
+                    "action": "Camera keys",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
