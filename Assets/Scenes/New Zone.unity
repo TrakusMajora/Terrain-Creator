@@ -178,8 +178,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1000011469939696, guid: 19541eb32fffccb47b01bcb13704e653, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 381495674}
   m_SourcePrefab: {fileID: 100100000, guid: 19541eb32fffccb47b01bcb13704e653, type: 3}
+--- !u!1 &381495673 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011469939696, guid: 19541eb32fffccb47b01bcb13704e653, type: 3}
+  m_PrefabInstance: {fileID: 381495672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &381495674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381495673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,7 +536,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.17, y: 6.02, z: -14.35}
+  m_LocalPosition: {x: 39.54, y: 3.01, z: -17.48}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
